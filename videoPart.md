@@ -1,4 +1,4 @@
-You have been watching a video for some time. Knowing the total video duration find out what portion of the video you have already watched.
+# You have been watching a video for some time. Knowing the total video duration find out what portion of the video you have already watched.
 
 Example
 
