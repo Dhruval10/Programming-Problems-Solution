@@ -1,5 +1,5 @@
 ```
-Given an array of intervals where intervals[i] = [starti, endi], merge all overlapping intervals, and return an array of the non-overlapping intervals that cover all the intervals in the input.
+Given an array of intervals where intervals[i] = [start[i], end[i]], merge all overlapping intervals, and return an array of the non-overlapping intervals that cover all the intervals in the input.
 
 Example 1:
 
@@ -15,7 +15,7 @@ Explanation: Intervals [1,4] and [4,5] are considered overlapping.
 
 Constraints:
 
-1 <= intervals.length <= 104
+1 <= intervals.length <= 10^4
 intervals[i].length == 2
-0 <= start <= end <= 104
+0 <= start <= end <= 10^4
 ```
