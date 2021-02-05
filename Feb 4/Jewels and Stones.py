@@ -15,3 +15,7 @@ class Solution:
                 count += jewels_map[str1]
         
         return count
+
+  # Return type is integer
+  # Time complexity: O(n)
+  # Space complexity: O(n)
