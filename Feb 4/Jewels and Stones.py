@@ -1,15 +1,17 @@
 class Solution:
     def numJewelsInStones(self, jewels: str, stones: str) -> int:
+        # create dictionary to count the occurance of each jewel in stones
+        jewels_map = defaultdict(int)
         
-        jwels_map = defaultdict(int)
-        
+        # Count occurance
         for str1 in stones:
-            jwels_map[str1] += 1
+            jewels_map[str1] += 1
         
         count = 0
         
+        # Add the occurance of a jewel in a dictionary
         for str1 in jewels:
-            if str1 in jwels_map:
-                count += jwels_map[str1]
+            if str1 in jewels_map:
+                count += jewels_map[str1]
         
         return count
