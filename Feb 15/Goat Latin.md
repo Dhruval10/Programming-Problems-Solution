@@ -1,3 +1,4 @@
+## Beats 94% python3 submission in Runtime and 87% in space complexity
 ```
 A sentence S is given, composed of words separated by spaces. Each word consists of lowercase and uppercase letters only.
 
