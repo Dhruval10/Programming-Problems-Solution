@@ -18,4 +18,5 @@ class Solution:
             
             total_distance = total_distance + ele1 + ele2
         
+        
         return total_distance
