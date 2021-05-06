@@ -1,4 +1,4 @@
-## Leetcode Python Solution
+## Programming Problems Solution
 
 ### How to find a solution:
 * Read problem statement from .md file
